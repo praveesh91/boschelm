@@ -1,0 +1,22 @@
+.layout-sidebar {
+  width: 225px;
+  background-color: #3b3a39;
+  color: #ffffff;
+  height: 1000px;
+  background-image: url("../assets/Pattern.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.layout-content {
+  background-color: #f5f7f8;
+  width: 100%;
+}
+.layout {
+  display: flex;
+  background-color: #f5f7f8;
+}
+@media screen and (max-width: 992px) {
+  .layout-sidebar {
+    width: 65px;
+  }
+}

@@ -1,0 +1,33 @@
+.nav-brand {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.mobile {
+  img {
+    width: 100%;
+    padding: 10px;
+  }
+}
+.side-nav-content {
+  li:hover,
+  li.active {
+    background-color: #000000;
+  }
+  ul {
+    padding: 0;
+    margin-bottom: 0;
+    li {
+      cursor: pointer;
+      list-style: none;
+      padding: 15px;
+      span {
+        padding: 0 10px;
+      }
+      i {
+        padding: 0 10px 0 15px;
+      }
+    }
+  }
+}

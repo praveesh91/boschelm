@@ -1,0 +1,58 @@
+<div class="dashboard-container">
+  <div class="page-info">
+    <div class="label">الرئيسية</div>
+    <div class="info">
+      <div class="play-icon"><i class="pi pi-play"></i></div>
+      <div class="info-name">محمد القحطاني</div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="row">
+      <div class="col-sm-12 col-md-4 mb-4">
+        <div class="parent h-100">
+          <div class="text">
+            <div class="label">التقييم العام</div>
+            <span class="count" [countUp]="453"> 0 </span
+            ><i class="pi pi-arrow-up"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-8 mb-4">
+        <div class="guage-container h-100">
+          <div class="count">
+            <div class="label">التقييم العام</div>
+            <span class="count" [countUp]="86">0</span>
+            <span>%</span>
+          </div>
+          <div class="guage"><app-gauge-chart></app-gauge-chart></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="pie h-100">
+          <app-pie-chart></app-pie-chart>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="doughnut h-100">
+          <app-doughnut-chart></app-doughnut-chart>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12 mb-4">
+        <div class="bar h-100"><app-bar-chart></app-bar-chart></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-sm-12 mb-4">
+        <div class="line h-100"><app-line-chart></app-line-chart></div>
+      </div>
+      <div class="col-md-4 col-sm-12 mb-4">
+        <div class="stacked-bar h-100"><app-stacked-bar></app-stacked-bar></div>
+      </div>
+    </div>
+  </div>
+  <div class="form-container">
+    <app-form></app-form>
+  </div>
+</div>

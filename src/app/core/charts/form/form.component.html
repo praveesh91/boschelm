@@ -1,0 +1,79 @@
+<div class="row g-4">
+  <div class="col-md-4 col-sm-6">
+    <div class="form-group">
+      <label for="caseNumber">رقم الحالة</label>
+      <input
+        class="form-control"
+        id="caseNumber"
+        type="text"
+        pInputText
+        formControlName="caseNumber"
+      />
+    </div>
+    <div class="form-group">
+      <label for="type">النوع</label>
+      <p-dropdown
+        formControlName="type"
+        formControlName="type"
+        [options]="types"
+        formControlName="type"
+        optionLabel="name"
+      ></p-dropdown>
+    </div>
+    <div class="form-group">
+      <label for="condition">الملف</label>
+      <p-dropdown
+        formControlName="condition"
+        [options]="conditions"
+        optionLabel="name"
+      ></p-dropdown>
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-6">
+    <div class="form-group">
+      <label for="district">الحي</label>
+      <p-dropdown
+        formControlName="district"
+        [options]="districts"
+        formControlName="district"
+        optionLabel="name"
+      ></p-dropdown>
+    </div>
+    <div class="form-group">
+      <label for="precision">الدقة</label>
+      <input
+        class="form-control"
+        id="precision"
+        type="text"
+        pInputText
+        formControlName="precision"
+      />
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-6">
+    <div class="form-group">
+      <label for="street">الشارع</label>
+      <input
+        class="form-control"
+        id="street"
+        type="text"
+        pInputText
+        formControlName="street"
+      />
+    </div>
+    <div class="form-group">
+      <label for="disclosureDate">تاريخ الكشف</label>
+      <p-calendar
+        [style]="{ minWidth: '100%' }"
+        formControlName="disclosureDate"
+        aria-placeholder="Choose Date"
+        [showIcon]="true"
+      ></p-calendar>
+    </div>
+  </div>
+  <div class="row">
+    <div class="btn-container my-4">
+      <button class="search-btn col-md-4 col-sm-6">بحث</button>
+    </div>
+  </div>
+</div>

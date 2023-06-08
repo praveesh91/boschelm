@@ -1,0 +1,18 @@
+<div class="side-nav-content" id="wrapper">
+  <div class="nav-brand d-lg-flex d-none">
+    <div class="nav-brand-image">
+      <img src="../../../assets/Logo.svg" />
+    </div>
+  </div>
+  <div class="d-sm-block d-lg-none d-block">
+    <div class="nav-brand-image mobile">
+      <img src="../../../assets/mobile.png" />
+    </div>
+  </div>
+  <ul>
+    <li *ngFor="let data of listItems" #listElement>
+      <i class="{{ data.icon }}"></i>
+      <span class="d-none d-lg-inline">{{ data.label }}</span>
+    </li>
+  </ul>
+</div>

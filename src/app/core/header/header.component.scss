@@ -1,0 +1,29 @@
+.header {
+  height: 75px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 20px;
+  align-items: center;
+  .label {
+    color: #9d9d9d;
+  }
+  .user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .user-name {
+      padding: 0 5px 12px;
+      color: #262626;
+    }
+    .more-icon {
+      padding-bottom: 8px;
+
+      .pi {
+        color: #9d9d9d;
+        font-size: 12px;
+        cursor: pointer;
+      }
+    }
+  }
+}

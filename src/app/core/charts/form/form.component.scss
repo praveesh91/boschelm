@@ -1,0 +1,52 @@
+::ng-deep {
+  .p-dropdown.p-component {
+    width: 100%;
+  }
+  .p-dropdown.p-component:hover,
+  .p-inputtext.p-component:hover {
+    border-color: #817749;
+  }
+  .p-button:enabled:active {
+    background: var(--color-primary-hover-color);
+    color: #ffffff;
+    border-color: var(--color-primary-hover-color);
+  }
+  .p-button:enabled:hover {
+    background: var(--color-primary-hover-color);
+    color: #ffffff;
+    border-color: var(--color-primary-hover-color);
+  }
+  .p-inputtext {
+    padding: 0.75rem 0.75rem;
+  }
+  .p-calendar {
+    direction: ltr;
+  }
+  .p-button {
+    background: #b9b290;
+    border: 1px solid #b9b290;
+  }
+}
+
+.form-group label {
+  display: block;
+  color: #657983;
+  margin-bottom: 0.5em;
+}
+
+.form-group {
+  padding: 1em 0em 1em 1em;
+}
+
+.search-btn {
+  background: #b9b290 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+  width: 95px;
+  height: 41px;
+  border: none;
+  color: #ffffff;
+}
+.search-btn:hover {
+  background: var(--color-primary-hover-color);
+}
